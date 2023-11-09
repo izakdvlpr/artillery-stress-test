@@ -1,0 +1,19 @@
+{
+  "name": "artillery-stress-test",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch server.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "artillery": "^2.0.0-38",
+    "elysia": "^0.7.24"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

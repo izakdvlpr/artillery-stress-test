@@ -1,0 +1,10 @@
+config:
+  target: http://localhost:3333
+  phases:
+    - duration: 10
+      arrivalRate: 100
+      rampTo: 50
+scenarios:
+  - flow:
+    - post:
+        url: "/users"
